@@ -50,7 +50,7 @@ This project is licensed under MIT License.
 ### Author
 - [Portfolio](https://gichuremaina.netlify.app)
 - [GitHub](https://github.com/KyleGichez)
-- [LinkedIn] (https://www.linkedin.com/in/gichure-maina-a45aab202/)
+- [LinkedIn](https://www.linkedin.com/in/gichure-maina-a45aab202/)
 
 
 
