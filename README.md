@@ -48,9 +48,9 @@ zipp==3.8.1
 This project is licensed under MIT License.
 
 ### Author
-- [Portfolio](https://gichuremaina.netlify.app)
-- [GitHub](https://github.com/KyleGichez)
-- [LinkedIn](https://www.linkedin.com/in/gichure-maina-a45aab202/)
+- [Portfolio] (https://gichuremaina.netlify.app)
+- [GitHub] (https://github.com/KyleGichez)
+- [LinkedIn] (https://www.linkedin.com/in/gichure-maina-a45aab202/)
 
 
 
