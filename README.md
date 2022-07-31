@@ -1,4 +1,4 @@
-# Movie_Review_App
+# Movie Review App
 
 ## Table of Contents
 - [Overview](#overview)
