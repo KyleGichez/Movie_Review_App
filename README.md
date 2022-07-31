@@ -23,23 +23,13 @@ Also, you can choose to download this project to your local working environment 
 $ python3 -m venv --without-pip virtual
 $ source virtual/bin/activate
 $ curl https://bootstrap.pypa.io/get-pip.py | python
-<<<<<<< HEAD
-$ pip install flask
-=======
->>>>>>> 22471ef388aac147c0acc30f62c381f326ba180d
 ````
 
 ### Requirements
 
-<<<<<<< HEAD
 To install the requirements.txt file run this command:
 ````requirements.txt file
 pip install -r requirements.txt
-=======
-To install the requirements.txt file, run the following command in your terminal:
-````requirements.txt file
- pip install -r requirements.txt
->>>>>>> 22471ef388aac147c0acc30f62c381f326ba180d
 ````
 - Run **pip install -r requirements.txt** command to install the requirements text file.
 - Run **pip freeze** command to check all the dependencies that are currently installed in your project.
