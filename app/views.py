@@ -3,11 +3,9 @@ from app import app
 
 @app.route('/')
 def index():
-    """
-
-    """
+    """Dynamic content is passed in as a dictionary and returns a key - value pair."""
     context = dict()
-    context['title'] = 'home page'
+    context['title'] = 'Movie Review App'
     context['message'] = 'Hello Sexy Ms Dollar Baby, How is you experience with flask so far?' 
     context['paragraph'] = """
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam at, dolor nemo 
