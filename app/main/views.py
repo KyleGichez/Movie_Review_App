@@ -1,7 +1,7 @@
-from flask import render_template, Response
-from app import app
+from flask import render_template, make_response, session
+from . import main
 
-@app.route('/')
+@main.route('/')
 def index():
     """Dynamic content is passed in as a dictionary and returns a key - value pair."""
     context = dict()
@@ -17,5 +17,15 @@ def index():
     """
     template = render_template('index.html', context = context)
     # template = render_template('index.html', **context) or # render_template('index.html', x=x, y=y)
-    response = Response(template)
+    response = make_response(template)
+    # response.headers['sid'] = session.id
     return response
+
+@main.route('/movies/<movie_id>')
+def movies(movie_id):
+    template = render_template('movies.html', id = movie_id)
+    response = make_response(template)
+    return response
+
+
+
