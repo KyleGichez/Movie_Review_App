@@ -24,21 +24,13 @@ $ python3 -m venv --without-pip virtual
 $ source virtual/bin/activate
 $ curl https://bootstrap.pypa.io/get-pip.py | python
 $ pip install flask
-$ deactivate
 ````
 
 ### Requirements
 
-To check all the dependencies installed when building this project, download the requirements.txt file.
+To install the requirements.txt file run this command:
 ````requirements.txt file
-click==8.1.3
-Flask==2.1.3
-importlib-metadata==4.12.0
-itsdangerous==2.1.2
-Jinja2==3.1.2
-MarkupSafe==2.1.1
-Werkzeug==2.2.1
-zipp==3.8.1
+pip install -r requirements.txt
 ````
 - Run **pip install -r requirements.txt** command to install the requirements text file.
 - Run **pip freeze** command to check all the dependencies that are currently installed in your project.

@@ -3,4 +3,5 @@ from app import app
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    message = 'Hello Sexy Ms Dollar Baby, How is you experience with flask so far?'
+    return render_template('index.html', message = message)
